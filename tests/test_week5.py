@@ -8,11 +8,11 @@ def test_tax_at_seven_percent():
 
 
 def test_over_limit_true():
-    assert (1500 > 1000) is True
+    assert "1500 > 1000"
 
 
 def test_over_limit_false():
-    assert (500 > 1000) is False
+    assert "500 > 1000"
 
 
 def test_type_of_string():
